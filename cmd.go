@@ -114,6 +114,7 @@ var printCmd = &Z.Cmd{
 			return err
 		}
 		if started == "" {
+			println()
 			return nil
 		}
 
